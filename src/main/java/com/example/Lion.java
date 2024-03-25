@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Lion {
     private Feline feline;
+    //но у поля и так модификтор private? или ошибка в другом?
     boolean hasMane;
 
     public Lion(String sex, Feline feline) throws Exception {
